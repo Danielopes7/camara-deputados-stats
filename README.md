@@ -1,5 +1,7 @@
 
-![golang](https://github.com/user-attachments/assets/c1329203-d1bf-40aa-b8fe-1e79b08d8b95)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c1329203-d1bf-40aa-b8fe-1e79b08d8b95" alt="golang">
+</div>
 
 ```
   ____    _    __  __    _    ____      _      ____ _____  _  _____ ____  
