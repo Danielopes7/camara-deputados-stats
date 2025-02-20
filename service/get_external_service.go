@@ -8,15 +8,18 @@ import (
 
 // Struct para os dados da API externa
 type Deputado struct {
-	ID            int    `json:"id"`
-	URI           string `json:"uri"`
-	Nome          string `json:"nome"`
-	SiglaPartido  string `json:"siglaPartido"`
-	URIPartido    string `json:"uriPartido"`
-	SiglaUf       string `json:"siglaUf"`
-	IDLegislatura int    `json:"idLegislatura"`
-	URLFoto       string `json:"urlFoto"`
-	Email         string `json:"email"`
+	ID                     int    `json:"id"`
+	URI                    string `json:"uri"`
+	Nome                   string `json:"nome"`
+	SiglaPartido           string `json:"siglaPartido"`
+	URIPartido             string `json:"uriPartido"`
+	SiglaUf                string `json:"siglaUf"`
+	IDLegislatura          int    `json:"idLegislatura"`
+	URLFoto                string `json:"urlFoto"`
+	Email                  string `json:"email"`
+	AusenciaJustificada    int
+	AusenciaNaoJustificada int
+	Presenca               int
 }
 
 type Deputados struct {
